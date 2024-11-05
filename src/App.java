@@ -23,7 +23,7 @@ public class App {
          */
         Pattern namePattern = Pattern.compile("^[a-zA-Z]+");
         Pattern dniPattern = Pattern.compile("\\d{8}[A-Z]");
-        Pattern correoPattern = Pattern.compile("[a-zA-Z0-9]*@gmail.(com|es)");
+        Pattern correoPattern = Pattern.compile("[a-zA-Z0-9]+@gmail.(com|es)");
 
         /**
          * Crea predicados para validar el nombre, DNI y correo electrónico de cada persona.
